@@ -52,18 +52,4 @@ public class TreeTraversalTest {
         System.out.println("\n\npostOrderTraversal\n=================");
         TreeTraversal.postOrderTraversal(root);
     }
-
-    @Test
-    public void treeInsert() {
-        TreeNode orderedTree = new TreeNode(5);
-        TreeNode disorderTree = new TreeNode(5);
-        for (int i = 0; i < 5; ++i) {
-            int random = (int)(Math.random() * 10);
-            TreeInsert.recursionOrderedInsert(orderedTree, random);
-            TreeInsert.recursionDisorderInsert(disorderTree, random);
-        }
-        System.out.println(orderedTree);
-        System.out.println(disorderTree);
-
-    }
 }
