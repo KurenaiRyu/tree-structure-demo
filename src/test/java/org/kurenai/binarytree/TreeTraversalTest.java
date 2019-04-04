@@ -1,4 +1,4 @@
-package org.kurenai.treestructure.binarytree;
+package org.kurenai.binarytree;
 
 import org.junit.Before;
 import org.junit.Test;

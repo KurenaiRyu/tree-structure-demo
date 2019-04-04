@@ -1,4 +1,4 @@
-package org.kurenai.treestructure.binarytree;
+package org.kurenai.binarytree;
 
 import java.util.Stack;
 
