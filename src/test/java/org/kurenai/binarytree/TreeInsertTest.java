@@ -1,6 +1,6 @@
 package org.kurenai.binarytree;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 /**
  * @author Kurenai

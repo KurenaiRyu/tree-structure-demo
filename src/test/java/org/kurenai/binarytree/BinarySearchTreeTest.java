@@ -1,13 +1,13 @@
 package org.kurenai.binarytree;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class BinarySearchTreeTest {
 
     BinarySearchTree tree;
 
-    @Before
+    @BeforeEach
     public void init() {
         tree = new BinarySearchTree(5);
         for (int i = 0; i < 8; ++i) {

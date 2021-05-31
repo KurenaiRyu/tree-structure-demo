@@ -1,13 +1,13 @@
 package org.kurenai.binarytree;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
 
 public class TreeTraversalTest {
 
     TreeNode root;
 
-    @Before
+    @BeforeEach
     public void fillTree() {
         //构造出来的树参照下面图片的连接
         //https://upload-images.jianshu.io/upload_images/2405011-5f5b0b136713f744.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1000/format/webp
